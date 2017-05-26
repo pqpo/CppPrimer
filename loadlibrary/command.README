@@ -1,0 +1,3 @@
+1.g++ -fPIC -shared caculate.cpp -o libcaculate.so
+2.g++ -std=c++11 -ldl main_call.cpp -o main
+
