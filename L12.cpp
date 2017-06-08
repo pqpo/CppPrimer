@@ -11,7 +11,7 @@ class Boo {
 };
 
 class Foo {
-	friend void Boo::printName(Foo &foo);
+	friend void Boo::printName(Foo &foo); // 声明友元，代表这个方法可以范围我的私有成员，也可以写类名，表示这个类的的所有方法都可以范围。
 	public: 
 		Foo(string name);
 	private:	
